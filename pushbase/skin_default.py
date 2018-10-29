@@ -37,13 +37,13 @@ class Colors:
         Chromatic = BiLed.YELLOW_HALF
 
     class Instrument:
-        NoteBase = Rgb.OCEAN
+        NoteBase = Rgb.RED
         NoteScale = Rgb.WHITE
         NoteNotScale = Rgb.BLACK
         NoteInvalid = Rgb.BLACK
         Feedback = Rgb.GREEN
         FeedbackRecord = Rgb.RED.shade(1)
-        NoteAction = Rgb.RED
+        NoteAction = Rgb.OCEAN
         SelectedNote = Rgb.TURQUOISE
 
     class Recording:
